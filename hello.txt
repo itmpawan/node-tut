@@ -1,0 +1,1 @@
+This is file write sync function for external module.
