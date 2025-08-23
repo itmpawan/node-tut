@@ -1,12 +1,11 @@
-const app = require('./app')
+// const http = require('http');
 
-console.log("Pawan")
-var a=40
-var b=50
-var c = a+b
-const zee = app.z
+// const getConnected = (req, res) => {
+//     res.write("Hello Pawan Server is running port: 4300");
+//     res.end();
+// }
+// http.createServer(getConnected).listen(4300);
 
-const result = zee.filter( (item) => {
-    return item === 3
-})
-console.log(result)
+import chalk from 'chalk';
+
+console.log(chalk.yellow('Hello world!'));
